@@ -227,9 +227,22 @@ div,#tiny-til #photo div,#stuga-til #photo div{
   border-top-right-radius: 10px 5px;
 
 }
+ /* fooooooter */
 .panel-footer{
   background-color: #1f1c1c;
   text-align: center;
+  padding: 5px
+}
+.panel-footer div div {
+  margin-top: 10px;
+}
+.panel-footer.contaier a  {
+   text-decoration: none;
+}
+
+.fa{
+  color: white;
+  margin:15px 5px 10px 0px; 
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
