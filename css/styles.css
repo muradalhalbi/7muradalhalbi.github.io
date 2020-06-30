@@ -1,0 +1,303 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  height: 20px;
+  font-family: 'Oxygen', sans-serif;
+  background-color:#dedede;
+}
+#navbar{
+  border:none;
+  border-radius: 0;
+  background-color: none;
+  background:url('../images/main-photo13-cut.jpg') no-repeat;
+  background-position:center;
+  height: 600px;
+  width: 100%;
+  padding-top: 45px;
+  border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    position: relative;
+    
+}
+#logo{
+  width: 50px;
+  height: 50px;
+  background-color: #f35729; /* orang */
+  color: #331704;
+  border-radius: 50% 50%;
+  border: 2px dotted #331704;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+
+
+
+}
+
+#list-icon{
+    margin: 4px 10px 0 0; 
+}
+#list-icon li a {
+   color: #951c49;
+   text-align: center;
+   text-transform: capitalize;
+   color: white;
+}
+
+#list-icon li a>span {
+  text-align: center;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 1px #222;
+  text-transform: uppercase;
+}
+
+#list-icon li a:hover{
+ border-bottom: 2px solid #f35729;
+}
+
+.navbar-default .navbar-toggle,.navbar-toggle{
+  border: 1px solid #f35729;
+  border-color:#f35729;
+  background-color: white; 
+}
+/* style for button sing in */
+#list-sing-in {
+  list-style: none;
+  float: right;
+}
+#list-sing-in li a input{
+  background-color: rgba(255,0,0,0);
+  padding: 5px 20px;
+  border:2px solid #f35729;
+  color: white;
+  margin-right: 15px;
+ border-bottom-left-radius: 20% 45%;
+    border-bottom-right-radius: 20% 45%;
+      border-top-left-radius: 20% 45%;
+        border-top-right-radius: 20% 45%;
+}
+#list-sing-in li a:hover input,#list-sing-in li a:focus input{
+  background-color: #f35729;
+}
+/*  main title */ 
+#main-title {
+  margin: 175px auto;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  width: 350px;
+}
+#main-title h1{
+  text-transform: capitalize;
+  font-size: 2.6em;
+}
+#main-title p{
+  font-size: 0.75em;
+  font-weight: 200;
+  font-family: 'Arial', sans-serif;
+}
+#main-title input{
+  background-color: #f35729;
+  padding: 5px 20px;
+  border:0;
+  color: white;
+  margin-right: 15px;
+ border-bottom-left-radius: 20% 45%;
+    border-bottom-right-radius: 20% 45%;
+      border-top-left-radius: 20% 45%;
+        border-top-right-radius: 20% 45%;
+        box-shadow: 1px 1px 10px 1px #222;
+}
+
+/* style for serves */
+
+#home-tiles{
+ margin-top: -100px;
+ text-align: center;
+}
+#home-tiles a {
+  text-decoration: none;
+}
+#day-til,#ticket-til,#promit-til,#active-til{
+  margin-top: 15px;
+   margin-bottom: 15px;
+padding: 15px;
+background-color: white;
+border-radius: 5px;
+color: black;
+
+}
+#day-til h4,#ticket-til h4,#promit-til h4,#active-til h4 {
+  font-weight: bold;
+  color: #191616;
+}
+#day-til p,#ticket-til p,#promit-til p,#active-til p{
+  font-size: 90%;
+}
+
+/* explore  */
+.explore{
+  width: 250px;
+  margin:175px auto;
+  text-align: center;
+  
+}
+.explore span {
+  margin:25px auto;
+  color: #f35729;
+  font-size: 1.8em;
+
+  
+
+}
+.explore h4 {
+  color: #222;
+   font-weight: bold;
+   color: #191616;
+}
+/* option style */ 
+
+#main-til{
+  text-align: center;
+}
+#main-til a {
+  text-decoration: none;
+}
+#trickle-til,#dragon-til,#tiny-til,#stuga-til{
+  margin-top: 15px;
+   margin-bottom: 15px;
+padding: 15px;
+background-color: white;
+border-radius: 15px;
+color: black;
+
+}
+#trickle-til #photo,#dragon-til #photo,
+#tiny-til #photo,#stuga-til #photo{
+  position: relative;
+  width: 225px;
+  height: 125px;
+  display: inline-block;
+  margin: 15px auto;
+  text-align: center; 
+
+}
+#trickle-til p,#dragon-til  p,
+#tiny-til  p,#stuga-til  p{
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-bottom: 1px;
+  color: #191616;
+
+}
+#trickle-til #photo img,#dragon-til #photo img,
+#tiny-til #photo img,#stuga-til #photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+#trickle-til #photo  span,#dragon-til #photo 
+span,#tiny-til #photo  span,#stuga-til #photo  span{ /*   heart */
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  margin: 5px auto;
+  border-radius: 2px;
+  padding:5px;
+  vertical-align: middle;
+  color: #f35729;
+  background-color: white;
+
+}
+#trickle-til #photo div,#dragon-til #photo
+div,#tiny-til #photo div,#stuga-til #photo div{
+   position: absolute;
+  left: 50px;
+  bottom: 0px;
+  height: 20px;
+  width: 50%;
+  background-color: white;
+  color: #f35729;
+  font-weight: bold;
+  border-top-left-radius: 10px 5px;
+  border-top-right-radius: 10px 5px;
+
+}
+.panel-footer{
+  background-color: #1f1c1c;
+  text-align: center;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#trickle-til #photo,#dragon-til #photo
+,#tiny-til #photo,#stuga-til #photo{
+  width: 180px;
+}
+#trickle-til ,#dragon-til 
+,#tiny-til ,#stuga-til {
+  height: 250px;
+}
+#day-til,#ticket-til,#promit-til,#active-til{
+  height: 254px;
+}
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+.col-sm-6 {
+    width: 40%;
+}
+#home-tiles {
+margin-left: 50px;
+}
+#list-icon li a {
+   font-size: 0.9em;
+}
+#list-sing-in li a input{
+  padding: 2px 2px;
+  margin-right: 5px;
+}
+.main-til{
+    text-align: center;
+}
+
+
+
+
+
+}
+@media (max-width: 766px){
+ #home-tiles{
+ margin-top: -150px;
+ 
+}
+#list-icon li a:hover{
+ background-color:  #f35729;
+}
+#main-title{
+  margin: 25px auto 100px auto;
+}
+
+}
+@media (max-width: 479px){
+ /* home title */ 
+#home-tiles{
+ margin-top: -150px;
+ text-align: center;
+}
+
+#list-icon li a:hover{
+ background-color:  #f35729;
+}
+
+}
